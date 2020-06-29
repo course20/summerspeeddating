@@ -1,0 +1,27 @@
+/* CSS files add styling rules to your content */
+
+body {
+  text-align:center;
+}
+#send{
+  background:red;
+  padding:5px;
+  cursor:pointer;
+  width:fit-content;
+  left:50%;
+  position:absolute;
+  transform:translateX(-50%);
+  color:white;
+  border-radius:5px;
+  font-weight:800;
+}
+#displayresults{
+  display:none;
+}
+#loading{
+  display:none;
+}
+#logo{
+  width:100px;
+  transform: translateY(40%);
+}
